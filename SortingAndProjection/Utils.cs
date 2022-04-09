@@ -73,32 +73,26 @@ namespace SortingAndProjection
         {
             Console.WriteLine($"\n=> OrderedUserModelsByName()");
 
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                var users = from userModel in userModels
-                            orderby userModel.Name
-                            select userModel;
+            var users = from userModel in userModels
+                        orderby userModel.Name
+                        select userModel;
 
-                return users.ToList();           
-            }
+            return users.ToList();
         }
 
         public static List<UserModel> OrderedUserModelsByNameAndAge(List<UserModel> userModels)
         {
             Console.WriteLine($"\n=> OrderedUserModelsByNameAndAge()");
 
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                //var users = from userModel in userModels
-                //            orderby userModel.Name, userModel.Age
-                //            select userModel;
+            //var users = from userModel in userModels
+            //            orderby userModel.Name, userModel.Age
+            //            select userModel;
 
-                var users = userModels
-                    .OrderBy(u => u.Name)
-                    .ThenBy(u => u.Age);
+            var users = userModels
+                .OrderBy(u => u.Name)
+                .ThenBy(u => u.Age);
 
-                return users.ToList();           
-            }
+            return users.ToList();
         }
     }
 }
