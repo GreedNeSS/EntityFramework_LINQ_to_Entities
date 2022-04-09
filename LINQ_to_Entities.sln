@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToLINQ", "IntroductionToLINQ\IntroductionToLINQ.csproj", "{83F7A5DB-849C-4714-8593-978E1DC71A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionToLINQ", "IntroductionToLINQ\IntroductionToLINQ.csproj", "{83F7A5DB-849C-4714-8593-978E1DC71A9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filtering", "Filtering\Filtering.csproj", "{22FA85F4-AE89-4E5D-A814-D16C579F495C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filtering", "Filtering\Filtering.csproj", "{22FA85F4-AE89-4E5D-A814-D16C579F495C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAndProjection", "SortingAndProjection\SortingAndProjection.csproj", "{85315177-F6DC-4C10-A886-D20E3C6426DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAndProjection", "SortingAndProjection\SortingAndProjection.csproj", "{85315177-F6DC-4C10-A886-D20E3C6426DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinAndGroupBy", "JoinAndGroupBy\JoinAndGroupBy.csproj", "{E16D3925-52DA-4795-BA19-3531EA76A16A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoinAndGroupBy", "JoinAndGroupBy\JoinAndGroupBy.csproj", "{E16D3925-52DA-4795-BA19-3531EA76A16A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionIntersectExcept", "UnionIntersectExcept\UnionIntersectExcept.csproj", "{A57F9881-1D0D-4D36-820A-7D8602FC2504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnionIntersectExcept", "UnionIntersectExcept\UnionIntersectExcept.csproj", "{A57F9881-1D0D-4D36-820A-7D8602FC2504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateFunctions", "AggregateFunctions\AggregateFunctions.csproj", "{9360BA2D-F359-4D73-9B50-B386DD40E470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A57F9881-1D0D-4D36-820A-7D8602FC2504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A57F9881-1D0D-4D36-820A-7D8602FC2504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A57F9881-1D0D-4D36-820A-7D8602FC2504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9360BA2D-F359-4D73-9B50-B386DD40E470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9360BA2D-F359-4D73-9B50-B386DD40E470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9360BA2D-F359-4D73-9B50-B386DD40E470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9360BA2D-F359-4D73-9B50-B386DD40E470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
