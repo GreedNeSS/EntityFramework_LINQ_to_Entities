@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAndProjection", "Sor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinAndGroupBy", "JoinAndGroupBy\JoinAndGroupBy.csproj", "{E16D3925-52DA-4795-BA19-3531EA76A16A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionIntersectExcept", "UnionIntersectExcept\UnionIntersectExcept.csproj", "{A57F9881-1D0D-4D36-820A-7D8602FC2504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E16D3925-52DA-4795-BA19-3531EA76A16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E16D3925-52DA-4795-BA19-3531EA76A16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E16D3925-52DA-4795-BA19-3531EA76A16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57F9881-1D0D-4D36-820A-7D8602FC2504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57F9881-1D0D-4D36-820A-7D8602FC2504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57F9881-1D0D-4D36-820A-7D8602FC2504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57F9881-1D0D-4D36-820A-7D8602FC2504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
