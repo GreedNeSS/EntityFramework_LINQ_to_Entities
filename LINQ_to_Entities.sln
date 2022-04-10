@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoinAndGroupBy", "JoinAndGr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnionIntersectExcept", "UnionIntersectExcept\UnionIntersectExcept.csproj", "{A57F9881-1D0D-4D36-820A-7D8602FC2504}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateFunctions", "AggregateFunctions\AggregateFunctions.csproj", "{9360BA2D-F359-4D73-9B50-B386DD40E470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateFunctions", "AggregateFunctions\AggregateFunctions.csproj", "{9360BA2D-F359-4D73-9B50-B386DD40E470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTrackerAndAsNoTracking", "ChangeTrackerAndAsNoTracking\ChangeTrackerAndAsNoTracking.csproj", "{FA7A9C17-4483-40D1-9274-1E1B0F021E68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{9360BA2D-F359-4D73-9B50-B386DD40E470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9360BA2D-F359-4D73-9B50-B386DD40E470}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9360BA2D-F359-4D73-9B50-B386DD40E470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7A9C17-4483-40D1-9274-1E1B0F021E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7A9C17-4483-40D1-9274-1E1B0F021E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7A9C17-4483-40D1-9274-1E1B0F021E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7A9C17-4483-40D1-9274-1E1B0F021E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
