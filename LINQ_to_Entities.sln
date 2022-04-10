@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTrackerAndAsNoTrackin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableAndIQueryable", "IEnumerableAndIQueryable\IEnumerableAndIQueryable.csproj", "{9FA54907-7620-428B-AEA3-6C7C3EA4964D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model-LevelQueryFilters", "Model-LevelQueryFilters\Model-LevelQueryFilters.csproj", "{A363639D-C2D5-4871-97E1-DF85DFCBA6F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{9FA54907-7620-428B-AEA3-6C7C3EA4964D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FA54907-7620-428B-AEA3-6C7C3EA4964D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FA54907-7620-428B-AEA3-6C7C3EA4964D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A363639D-C2D5-4871-97E1-DF85DFCBA6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A363639D-C2D5-4871-97E1-DF85DFCBA6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A363639D-C2D5-4871-97E1-DF85DFCBA6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A363639D-C2D5-4871-97E1-DF85DFCBA6F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
